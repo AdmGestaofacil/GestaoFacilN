@@ -4,9 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using GestaoFacil.Dados;
-using GestaoFacil.Dados.Repositories.Interfaces;
-using GestaoFacil.Dados.Repositories;
+
 
 namespace GestaoFacil
 {
@@ -23,7 +21,7 @@ namespace GestaoFacil
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            services.AddDbContext<Context>(options => options.UseSqlServer(Util.GetConnectionString("Base")));
+           // services.AddDbContext<Context>(options => options.UseSqlServer(Util.GetConnectionString("Base")));
 
             //Registrando como serviço minhas interfaces pra ser usado nos controles... 
            // services.AddTransient<IAcaoRepository, AcaoRepository>();
