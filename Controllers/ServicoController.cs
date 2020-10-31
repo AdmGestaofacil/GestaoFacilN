@@ -18,7 +18,6 @@ namespace GestaoFacil.Controllers
         ServicoAPI _api = new ServicoAPI();
 
 
-
         public async Task<IActionResult> Index()
         {
             List<ServicoData> Servico = new List<ServicoData>();
