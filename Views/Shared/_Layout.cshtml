@@ -12,7 +12,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
                 @*<img src="~/global_assets/images/rci-banque-espana-logo.png" alt="" width="32" height="32" title="Bootstrap">*@
                 <a id="edi" class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">GestaoFacil</a>
@@ -35,7 +35,7 @@
                                     Cadastros
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                    <a class="dropdown-item" href="#">Profissionais</a>
+                                    <a class="dropdown-item" asp-area="" asp-controller="Funcionario" asp-action="Index">Profissionais</a>
                                     <a class="dropdown-item" href="#">Clientes</a>
                                     <a class="dropdown-item" asp-area="" asp-controller="Servico" asp-action="Index">Servico</a>
                                     <a class="dropdown-item" href="#">Produtos</a>
@@ -93,6 +93,10 @@
 
 
     <div class="container">
+        <h1 class="mt-4">Dashboard</h1>
+        <ol class="breadcrumb mb-4">
+            <li class="breadcrumb-item active">Dashboard</li>
+        </ol>
         <main role="main" class="pb-3">
 
             @*<div class="mycal"></div>*@

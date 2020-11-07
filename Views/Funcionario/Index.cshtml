@@ -1,0 +1,99 @@
+﻿@model IEnumerable<GestaoFacil.Models.FuncionarioData>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+@*<h1>Index</h1>*@
+
+<p>
+    <a class="btn btn-primary" asp-action="Create">Novo colaborador</a>
+</p>
+
+<div class="content d-flex justify-content-center align-items-center">
+    <div class="card border-left-3 border-left-warning border-right-3 border-right-warning rounded-0">
+        <div class="card-header header-elements-inline"> <h2 class="card-title">Usuarios</h2><i class="icon-user"></i></div>
+        <div class="card-body">
+            <table class="table">
+                <thead>
+                    <tr>
+                        @*<th>
+                                @Html.DisplayNameFor(model => model.FuncionarioId)
+                            </th>*@
+
+                        <th>
+                            @Html.DisplayName("Nome")
+                        </th>
+                        <th>
+                            @Html.DisplayName("CPF")
+                        </th>
+                        <th>
+                            @Html.DisplayName("Cadastro")
+                        </th>
+                        <th>
+                            @Html.DisplayName("Nascimento")
+                        </th>
+                        <th>
+                            @Html.DisplayName("Salário")
+                        </th>
+                        <th>
+                            @Html.DisplayName("Celular")
+                        </th>
+                        <th>
+                            @Html.DisplayName("Contato")
+                        </th>
+                        <th>
+                            @Html.DisplayName("E-mail")
+                        </th>
+                        <th>
+                            @Html.DisplayName("Ativo")
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Nome)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.cpf)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.DataCadastro)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.DataNascimento)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Salario)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Celular)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.TelResidencial)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Email)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Ativo)
+                            </td>
+                            <td>
+                                @*@Html.ActionLink("Editar", "Edit", new { id = item.FuncionarioId }) |
+                                    @Html.ActionLink("Detalhes", "Details", new { id = item.FuncionarioId }) |
+                                    @Html.ActionLink("Excluir", "Delete", new { id = item.FuncionarioId })*@
+
+                                <a asp-action="Edit" asp-route-id="@item.FuncionarioId">Editar</a> |
+                                <a asp-action="Delete" asp-route-id="@item.FuncionarioId">Excluir</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
