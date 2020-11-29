@@ -18,6 +18,15 @@ namespace GestaoFacil.Controllers
 
         FuncionarioAPI api = new FuncionarioAPI();
 
+
+        public async Task<IActionResult> Teste()
+        {
+            
+
+            return View();
+
+
+        }
         // GET: FuncionarioController
         public async Task<ActionResult> Index()
         {
@@ -187,6 +196,7 @@ namespace GestaoFacil.Controllers
             }
             return View();
         }
+
 
 
         private async Task<HttpResponseMessage> RetornaDadosApi(int id = 0 )
