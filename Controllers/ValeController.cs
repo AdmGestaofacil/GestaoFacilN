@@ -28,10 +28,6 @@ namespace GestaoFacil.Controllers
                 Vales = JsonConvert.DeserializeObject<List<ValeData>>(resultado);
             }
 
-
-
-
-
             return View(Vales);
         }
 
@@ -109,7 +105,7 @@ namespace GestaoFacil.Controllers
             HttpClient client = _api.ListVale();
             //http post
 
-            var jsonContent = JsonConvert.SerializeObject(vale);
+           var jsonContent = JsonConvert.SerializeObject(vale);
             var contentString = new StringContent(jsonContent, Encoding.UTF8, "application/json");
             contentString.Headers.ContentType = new
             MediaTypeHeaderValue("application/json");

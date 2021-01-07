@@ -11,7 +11,7 @@ namespace GestaoFacil.Models
         public string Descricao { get; set; }
         public decimal Valor { get; set; }
         public int FuncionarioId { get; set; }
-        //public string nomeFuncionario { get; set; }
+        public string Funcionario { get; set; }
 
     }
 }

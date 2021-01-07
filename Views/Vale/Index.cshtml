@@ -25,6 +25,9 @@
             <th>
                 @Html.DisplayNameFor(model => model.FuncionarioId)
             </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Funcionario)
+            </th>
             <th></th>
         </tr>
     </thead>
@@ -42,6 +45,9 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.FuncionarioId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Funcionario)
             </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.ValeId">Editar</a> |
