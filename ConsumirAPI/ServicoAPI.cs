@@ -8,7 +8,7 @@ namespace GestaoFacil.ConsumirAPI
 {
     public class ServicoAPI
     {
-        //ed
+        //edr
         public HttpClient ListServico()
         {
             var client = new HttpClient();
