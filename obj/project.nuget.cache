@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OV59186zrHSmeKS+Vaz7TuCdETqLpnK5oW3wMtIyIAuz0hCj5xSVlZrFhXhJpJ/Q9kVc/hGDEQTyV6B6NW6JyQ==",
+  "dgSpecHash": "rN3U9nh3+T1ze3k5FG16BysCs/x0JS8KbYNotAGSEkiGIMvokieN7xGy1HOrYv/CkKIyovmb8vkIgcluMGz0Ig==",
   "success": true,
-  "projectFilePath": "C:\\GestaoFacil\\GestaoFacil\\GestaoFacil.UI.csproj",
+  "projectFilePath": "C:\\Sistema\\AdmGestaofacil\\GestaoFacilN\\GestaoFacil.UI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\adriano\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\adriano\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

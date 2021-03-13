@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GestaoFacil\\GestaoFacil\\GestaoFacil.UI.csproj": {}
+    "C:\\Sistema\\AdmGestaofacil\\GestaoFacilN\\GestaoFacil.UI.csproj": {}
   },
   "projects": {
-    "C:\\GestaoFacil\\GestaoFacil\\GestaoFacil.UI.csproj": {
+    "C:\\Sistema\\AdmGestaofacil\\GestaoFacilN\\GestaoFacil.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GestaoFacil\\GestaoFacil\\GestaoFacil.UI.csproj",
+        "projectUniqueName": "C:\\Sistema\\AdmGestaofacil\\GestaoFacilN\\GestaoFacil.UI.csproj",
         "projectName": "GestaoFacil.UI",
-        "projectPath": "C:\\GestaoFacil\\GestaoFacil\\GestaoFacil.UI.csproj",
+        "projectPath": "C:\\Sistema\\AdmGestaofacil\\GestaoFacilN\\GestaoFacil.UI.csproj",
         "packagesPath": "C:\\Users\\adriano\\.nuget\\packages\\",
-        "outputPath": "C:\\GestaoFacil\\GestaoFacil\\obj\\",
+        "outputPath": "C:\\Sistema\\AdmGestaofacil\\GestaoFacilN\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -86,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.405\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.407\\RuntimeIdentifierGraph.json"
         }
       }
     }
