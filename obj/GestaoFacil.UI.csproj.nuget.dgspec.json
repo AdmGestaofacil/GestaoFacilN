@@ -1,26 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Sistema\\AdmGestaofacil\\GestaoFacilN\\GestaoFacil.UI.csproj": {}
+    "C:\\Users\\flp_m\\Source\\Repos\\GestaoFacilFront\\GestaoFacil.UI.csproj": {}
   },
   "projects": {
-    "C:\\Sistema\\AdmGestaofacil\\GestaoFacilN\\GestaoFacil.UI.csproj": {
+    "C:\\Users\\flp_m\\Source\\Repos\\GestaoFacilFront\\GestaoFacil.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Sistema\\AdmGestaofacil\\GestaoFacilN\\GestaoFacil.UI.csproj",
+        "projectUniqueName": "C:\\Users\\flp_m\\Source\\Repos\\GestaoFacilFront\\GestaoFacil.UI.csproj",
         "projectName": "GestaoFacil.UI",
-        "projectPath": "C:\\Sistema\\AdmGestaofacil\\GestaoFacilN\\GestaoFacil.UI.csproj",
-        "packagesPath": "C:\\Users\\adriano\\.nuget\\packages\\",
-        "outputPath": "C:\\Sistema\\AdmGestaofacil\\GestaoFacilN\\obj\\",
+        "projectPath": "C:\\Users\\flp_m\\Source\\Repos\\GestaoFacilFront\\GestaoFacil.UI.csproj",
+        "packagesPath": "C:\\Users\\flp_m\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\flp_m\\Source\\Repos\\GestaoFacilFront\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\adriano\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\flp_m\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -31,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -42,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
@@ -86,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.407\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
